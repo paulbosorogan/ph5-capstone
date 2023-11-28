@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>We got your goodies, <%= @user.name %></h1> 
+    <p>
+      You have successfully placed an order with us.
+    </p>
+    <p>Order items:
+      <ul>
+        <li><%= @order.item_details%> </li>
+      </ul>
+    </p>
+    <p>Thanks for your order and for supporting small businesses!</p>
+  </body>
+</html> 
