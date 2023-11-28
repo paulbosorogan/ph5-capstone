@@ -53,7 +53,7 @@ Store.addNotification({
   message: `Order has been placed!`,
   type: "warning",
   insert: "top",
-  container: "center",
+  container: "top-center",
   animationIn: ["animate__animated", "animate__fadeIn"],
   animationOut: ["animate__animated", "animate__fadeOut"],
   dismiss: {
