@@ -3,7 +3,7 @@ class User < ApplicationRecord
 
     validates :name, :email, :address, :phone,  presence: true 
     validates :email, :phone, uniqueness: true
-    validates :my_email_attribute, email: {mode: strict, require_fqdn: true}
+    validates :email, email: true
 
     validates :phone, phone: true, allow_blank: false, uniqueness: true
     before_save :format_phone
