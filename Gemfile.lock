@@ -75,6 +75,8 @@ GEM
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.4)
+    email_validator (2.2.4)
+      activemodel
     erubi (1.12.0)
     faker (3.2.2)
       i18n (>= 1.8.11, < 2)
@@ -119,6 +121,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.15.5-x86_64-linux)
       racc (~> 1.4)
+    phonelib (0.8.5)
     public_suffix (5.0.4)
     puma (5.6.7)
       nio4r (~> 2.0)
@@ -188,9 +191,11 @@ DEPENDENCIES
   active_model_serializers
   bcrypt (~> 3.1.7)
   byebug
+  email_validator
   faker (~> 3.2)
   letter_opener
   listen (~> 3.3)
+  phonelib
   puma (~> 5.0)
   rack-cors
   rails (~> 6.1.7, >= 6.1.7.4)
