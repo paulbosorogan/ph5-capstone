@@ -17,9 +17,9 @@ import {SocialIcon} from 'react-social-icons'
           <br/>
           <br/>
             <div className='row social-icon'>
-              <SocialIcon bgColor='green' fgColor='white'/>
-              <SocialIcon bgColor='green' fgColor='white'/>
-              <SocialIcon bgColor='green' fgColor='white'/>
+              <SocialIcon bgColor='green' fgColor='white' href='no' url='http://instagram.com/fortunepokebowl' />
+              <SocialIcon bgColor='green' fgColor='white' href='no' url='http://facebook.com/fortunepokebowl'/>
+              <SocialIcon bgColor='green' fgColor='white'  href='no' url='http://x.com/fortunepokebowl'/>
             </div>
     </div>
   
