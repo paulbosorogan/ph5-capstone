@@ -6,7 +6,7 @@ import {SocialIcon} from 'react-social-icons'
  function Home() {
   return (
     <div className='homepage'>
-            <h3 className='home-page'>NEW YORK'S BEST POKE BOWL</h3>
+            <h3 className='home-page'>NEW YORK'S BEST POKE BOWL</h3> 
             <br/>
             <br/>
           <button className='home-bttn'>
@@ -17,9 +17,9 @@ import {SocialIcon} from 'react-social-icons'
           <br/>
           <br/>
             <div className='row social-icon'>
-              <SocialIcon bgColor='green' fgColor='white' href='no' url='http://instagram.com/fortunepokebowl' />
-              <SocialIcon bgColor='green' fgColor='white' href='no' url='http://facebook.com/fortunepokebowl'/>
-              <SocialIcon bgColor='green' fgColor='white'  href='no' url='http://x.com/fortunepokebowl'/>
+              <SocialIcon bgColor='green' fgColor='white' href='/' url='http://instagram.com/fortunepokebowl' />
+              <SocialIcon bgColor='green' fgColor='white' href='/' url='http://facebook.com/fortunepokebowl'/>
+              <SocialIcon bgColor='green' fgColor='white'  href='/' url='http://x.com/fortunepokebowl'/>
             </div>
     </div>
   
