@@ -16,7 +16,7 @@ admin = User.create(
     name: "admin",
     email: "admin@admin.com",
     address: "33 Admin Street, New York",
-    phone: "999-999-9999",
+    phone: Faker::PhoneNumber.phone_number,
     password: "100"
 )
 
@@ -275,9 +275,9 @@ end
 
 u1 = User.create(
     name: "test",
-    email: "test@test.com",
+    email: "test@gmail.com",
     address: "33 Admin Street, New York",
-    phone: "999-999-9999",
+    phone: Faker::PhoneNumber.phone_number,
     password: "test"
 )
 
