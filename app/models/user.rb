@@ -5,7 +5,7 @@ class User < ApplicationRecord
     validates :email, :phone, uniqueness: true
     validates :email, email: true
 
-    validates :phone, phone: true, allow_blank: false, uniqueness: true
+    validates :phone, allow_blank: false, uniqueness: true
     before_save :format_phone
 
     has_many :orders, dependent: :destroy
